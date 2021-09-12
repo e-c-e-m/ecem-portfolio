@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap");
+
+* {
+  font-family: "Source Code Pro", monospace;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 90%;
+  margin: auto;
+}
+
+.homeTitle {
+  font-size: 50px;
+}
+
+.leftSide {
+  width: 50%;
+  padding-top: 30vh;
+}
+
+.rightSide {
+  width: 50%;
+}
+
+.mainImg {
+  width: 400px;
+  height: 370px;
+  padding-top: 30vh;
+  padding-left: 10vw;
+}
+
+.homeBttnLayout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.homeBttn {
+  margin-top: 50px;
+  font-size: 20px;
+  width: 100px;
+  padding: 10px 0px;
+  border: 2px solid black;
+  background-color: rgb(144, 242, 255);
+  border-radius: 20px;
+  &:hover {
+    background-color: rgb(196, 248, 255);
+    cursor: pointer;
+  }
+}
+
+.homeText {
+  opacity: 0.7;
+  font-size: 18px;
+}
+
+.tech {
+  margin-top: 50px;
+  width: 690px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 2s;
+}
+
+.techActive {
+  margin-top: 50px;
+  width: 690px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 2s;
+  background-color: rgb(255, 247, 177);
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
+.portfolioSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.footer {
+  min-height: 5vh;
+  text-align: center;
+  background-color: rgb(144, 242, 255);
+  p {
+    padding-top: 10px;
+  }
+}
