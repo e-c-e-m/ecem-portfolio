@@ -1,9 +1,16 @@
 import React from "react";
 import "./project.scss";
 
-const Project = ({ name, code, live, technologies, desc }) => {
+const Project = ({
+  name,
+  code,
+  live,
+  technologies,
+  desc,
+  isDarkModeActive,
+}) => {
   return (
-    <div className="projectBox">
+    <div className={isDarkModeActive ? "darkProjectBox" : "projectBox"}>
       <h1 className="projectTitle">{name}</h1>
       <div className="btnLayout">
         <button className="codeBtn" onClick={() => window.open(code, "_blank")}>

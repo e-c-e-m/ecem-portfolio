@@ -1,0 +1,17 @@
+@import "../../sass/base/base";
+
+.rightSide {
+  @include section;
+}
+
+.mainImg {
+  padding-left: 10vw;
+  @media (min-width: 320px) {
+    display: none;
+  }
+  @media (min-width: 960px) {
+    display: unset;
+    width: 400px;
+    height: 370px;
+  }
+}

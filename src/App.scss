@@ -2,13 +2,14 @@
 
 * {
   font-family: "Source Code Pro", monospace;
+  margin: 0;
+  padding: 0;
 }
 
 .app {
   display: flex;
   min-height: 100vh;
-  width: 90%;
-  margin: auto;
+  width: 100%;
   @media (min-width: 320px) {
     flex-direction: column;
   }
@@ -17,117 +18,41 @@
   }
 }
 
-.homeTitle {
-  font-size: 50px;
+.title {
+  color: black;
 }
 
-.leftSide {
-  padding-top: 30vh;
-  @media (min-width: 320px) {
-    height: 50%;
-    width: auto;
-  }
-  @media (min-width: 760px) {
-    width: 50%;
-    height: auto;
-  }
+.darkTitle {
+  color: white;
 }
 
-.rightSide {
-  @media (min-width: 320px) {
-    height: 50%;
-    width: auto;
-  }
-  @media (min-width: 760px) {
-    width: 50%;
-    height: auto;
-  }
-}
-
-.mainImg {
-  padding-top: 30vh;
-  padding-left: 10vw;
-  @media (min-width: 320px) {
-    display: none;
-  }
-  @media (min-width: 960px) {
-    display: unset;
-    width: 400px;
-    height: 370px;
-  }
-}
-
-.homeBttnLayout {
+.darkApp {
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 50%;
-}
-
-.homeBttn {
-  margin-top: 50px;
-  font-size: 20px;
-  width: 100px;
-  padding: 10px 0px;
-  border: 2px solid black;
-  background-color: rgb(144, 242, 255);
-  border-radius: 20px;
-  &:hover {
-    background-color: rgb(196, 248, 255);
-    cursor: pointer;
-  }
-}
-
-.homeText {
-  opacity: 0.7;
-  font-size: 18px;
-}
-
-.tech {
-  margin-top: 50px;
-  font-size: 20px;
-  font-weight: 500;
-  transition: 2s;
+  background-color: rgb(39, 39, 39);
+  min-height: 100vh;
+  width: 100%;
+  color: white;
   @media (min-width: 320px) {
-    width: 300px;
-  }
-  @media (min-width: 414px) {
-    width: 350px;
-  }
-  @media (min-width: 1024px) {
-    width: 490px;
-  }
-  @media (min-width: 1200px) {
-    width: 690px;
-  }
-}
-
-.techActive {
-  margin-top: 50px;
-  font-size: 20px;
-  font-weight: 500;
-  transition: 2s;
-  background-color: rgb(255, 247, 177);
-  @media (min-width: 320px) {
-    width: 300px;
-  }
-  @media (min-width: 414px) {
-    width: 400px;
+    flex-direction: column;
   }
   @media (min-width: 760px) {
-    width: 690px;
-  }
-}
-
-@media (orientation: landscape) {
-  body {
-    grid-auto-flow: column;
+    flex-direction: row;
   }
 }
 
 .portfolioSection {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  min-height: 100vh;
+  margin: auto;
+}
+
+.darkPortfolioSection {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(39, 39, 39);
   align-items: center;
   padding-top: 30px;
   min-height: 100vh;

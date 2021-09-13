@@ -1,0 +1,53 @@
+@mixin section {
+  padding-top: 30vh;
+  @media (min-width: 320px) {
+    height: 50%;
+    width: auto;
+  }
+  @media (min-width: 760px) {
+    width: 50%;
+    height: auto;
+  }
+}
+
+@mixin toggleBtn($color, $background-color, $hover) {
+  margin-top: 50px;
+  width: 270px;
+  padding: 10px 0px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: $background-color;
+  color: $color;
+  &:hover {
+    background-color: $hover;
+    cursor: pointer;
+  }
+}
+
+@mixin projectBox($color, $background-color) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid black;
+  background-color: $background-color;
+  color: $color;
+  height: 350px;
+  width: 500px;
+  margin: 30px;
+  padding: 0;
+  position: relative;
+  &:hover {
+    animation: shake 0.5s;
+  }
+  @media (min-width: 320px) {
+    width: 300px;
+  }
+  @media (min-width: 414px) {
+    width: 400px;
+  }
+  @media (min-width: 760px) {
+    width: 500px;
+  }
+}

@@ -1,26 +1,11 @@
+@import "../../sass/base/base";
+
 .projectBox {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  border: 2px solid black;
-  height: 350px;
-  width: 500px;
-  margin: 30px;
-  padding: 0;
-  position: relative;
-  &:hover {
-    animation: shake 0.5s;
-  }
-  @media (min-width: 320px) {
-    width: 300px;
-  }
-  @media (min-width: 414px) {
-    width: 400px;
-  }
-  @media (min-width: 760px) {
-    width: 500px;
-  }
+  @include projectBox(black, white);
+}
+
+.darkProjectBox {
+  @include projectBox(white, $dark-btn);
 }
 
 .btnLayout {
@@ -31,6 +16,7 @@
 }
 
 .projectTitle {
+  margin-top: 20px;
   @media (min-width: 320px) {
     font-size: 28px;
   }
@@ -68,8 +54,8 @@
 }
 
 .technologiesText {
-  margin-top: 20px;
-  font-weight: 600;
+  margin-top: 18px;
+  margin-bottom: 10px;
 }
 
 .descText {
