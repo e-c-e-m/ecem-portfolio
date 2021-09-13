@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "name": "Startup Landing Page",
+      "code": "https://github.com/e-c-e-m/nextjs_landing_page",
+      "live": "https://streamable.com/ecmw32"
+    },
+    {
+      "name": "Quiz Result Animation",
+      "code": "https://github.com/e-c-e-m/result-animation",
+      "live": "https://streamable.com/c54m2x"
+    },
+    {
+      "name": "Crypto Monkey",
+      "code": "https://github.com/e-c-e-m/crypto-monkey",
+      "live": "https://crypto-monkey-1efs2j4jv-e-c-e-m.vercel.app/"
+    }
+  ]
+}

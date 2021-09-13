@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react";
 import "./App.scss";
-import CartoonPortrait from "./assets/images/anime2.png";
+import CartoonPortrait from "./assets/images/anime.png";
 import Parallax from "react-rellax";
 import Project from "./components/Project";
+import Data from "./assets/data/projects.json";
 
 function App() {
   const [scroll, setScroll] = useState(false);
@@ -46,8 +47,15 @@ function App() {
             </p>
           </Parallax>
           <div className="homeBttnLayout">
-            <button className="homeBttn">Email</button>
-            <button className="homeBttn">CV</button>
+            <button
+              className="homeBttn"
+              onClick={(e) => {
+                window.location = `mailto:ecem.n.ozturk@gmail.com`;
+                e.preventDefault();
+              }}
+            >
+              Email
+            </button>
           </div>
         </div>
         <div className="rightSide">
@@ -58,9 +66,13 @@ function App() {
       </div>
       <div className="portfolioSection">
         <h1>Projects</h1>
-        <Project />
-        <Project />
-        <Project />
+        {Data.projects.map((project) => (
+          <Project
+            name={project.name}
+            code={project.code}
+            live={project.live}
+          />
+        ))}
       </div>
       <div className="footer">
         <p>Copyright © 2021 | Made with ♡ by Ecem</p>
