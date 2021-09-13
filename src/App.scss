@@ -6,10 +6,15 @@
 
 .app {
   display: flex;
-  flex-direction: row;
   min-height: 100vh;
   width: 90%;
   margin: auto;
+  @media (min-width: 320px) {
+    flex-direction: column;
+  }
+  @media (min-width: 760px) {
+    flex-direction: row;
+  }
 }
 
 .homeTitle {
@@ -17,19 +22,39 @@
 }
 
 .leftSide {
-  width: 50%;
   padding-top: 30vh;
+  @media (min-width: 320px) {
+    height: 50%;
+    width: auto;
+  }
+  @media (min-width: 760px) {
+    width: 50%;
+    height: auto;
+  }
 }
 
 .rightSide {
-  width: 50%;
+  @media (min-width: 320px) {
+    height: 50%;
+    width: auto;
+  }
+  @media (min-width: 760px) {
+    width: 50%;
+    height: auto;
+  }
 }
 
 .mainImg {
-  width: 400px;
-  height: 370px;
   padding-top: 30vh;
   padding-left: 10vw;
+  @media (min-width: 320px) {
+    display: none;
+  }
+  @media (min-width: 960px) {
+    display: unset;
+    width: 400px;
+    height: 370px;
+  }
 }
 
 .homeBttnLayout {
@@ -60,19 +85,38 @@
 
 .tech {
   margin-top: 50px;
-  width: 690px;
   font-size: 20px;
   font-weight: 500;
   transition: 2s;
+  @media (min-width: 320px) {
+    width: 300px;
+  }
+  @media (min-width: 414px) {
+    width: 350px;
+  }
+  @media (min-width: 1024px) {
+    width: 490px;
+  }
+  @media (min-width: 1200px) {
+    width: 690px;
+  }
 }
 
 .techActive {
   margin-top: 50px;
-  width: 690px;
   font-size: 20px;
   font-weight: 500;
   transition: 2s;
   background-color: rgb(255, 247, 177);
+  @media (min-width: 320px) {
+    width: 300px;
+  }
+  @media (min-width: 414px) {
+    width: 400px;
+  }
+  @media (min-width: 760px) {
+    width: 690px;
+  }
 }
 
 @media (orientation: landscape) {

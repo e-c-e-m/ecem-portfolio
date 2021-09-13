@@ -71,6 +71,8 @@ function App() {
             name={project.name}
             code={project.code}
             live={project.live}
+            technologies={project.technologies}
+            desc={project.desc}
           />
         ))}
       </div>
