@@ -26,31 +26,11 @@
 }
 
 .codeBtn {
-  margin-top: 50px;
-  font-size: 20px;
-  width: 100px;
-  padding: 10px 0px;
-  border: 2px solid black;
-  background-color: rgb(255, 247, 177);
-  border-radius: 20px;
-  &:hover {
-    background-color: rgb(253, 249, 209);
-    cursor: pointer;
-  }
+  @include projectBtn(100px, black, $light-blue, $light-blue-hover);
 }
 
 .viewBtn {
-  margin-top: 50px;
-  font-size: 20px;
-  width: 100px;
-  padding: 10px 0px;
-  border: 2px solid black;
-  background-color: rgb(255, 206, 142);
-  border-radius: 20px;
-  &:hover {
-    background-color: rgb(255, 218, 170);
-    cursor: pointer;
-  }
+  @include projectBtn(100px, black, $light-blue-2, $light-blue-hover-2);
 }
 
 .technologiesText {

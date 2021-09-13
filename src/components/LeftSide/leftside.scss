@@ -32,7 +32,7 @@
 }
 
 .darkToggleBtn {
-  @include toggleBtn(black, $lilac, $lilac-hover);
+  @include toggleBtn(black, $white, $white-hover);
 }
 
 .homeBtn {
