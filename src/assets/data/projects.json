@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "name": "Startup Landing Page",
-      "code": "https://github.com/e-c-e-m/nextjs_landing_page",
-      "live": "https://streamable.com/ecmw32",
-      "technologies": "Next.JS, React, Theme-UI, Framer Motion",
-      "desc": "Responsive landing page for imaginary startup company"
+      "name": "Wine Website",
+      "code": "https://github.com/e-c-e-m/wine-website",
+      "live": "https://wine-website-five.vercel.app/",
+      "technologies": "React, Ant Design, CSS",
+      "desc": "Responsive website for fake online wine store"
     },
     {
       "name": "Quiz Result Animation",
