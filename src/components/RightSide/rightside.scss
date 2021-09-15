@@ -1,7 +1,15 @@
 @import "../../sass/base/base";
 
 .rightSide {
-  @include section;
+  padding-top: 30vh;
+  @media (min-width: 320px) {
+    height: 0vh;
+    width: auto;
+  }
+  @media (min-width: 760px) {
+    width: 50%;
+    height: auto;
+  }
 }
 
 .mainImg {
@@ -12,7 +20,7 @@
   }
   @media (min-width: 960px) {
     display: unset;
-    width: 300px;
+    width: 310px;
     height: 370px;
   }
 }
