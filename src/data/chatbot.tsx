@@ -12,7 +12,7 @@ export const predefinedAnswers: Record<string, React.ReactNode> = {
         bug fixes, and platform support.
       </li>
       <li>
-        <strong>React Developer</strong> – Financial Times (Sep 2024 – Oct 2024)
+        <strong>React Developer</strong> – Financial Times (February 2025)
         <br />
         Delivered a responsive animated energy page using React, Tailwind, GSAP,
         and Lottie.
@@ -64,7 +64,7 @@ export const predefinedAnswers: Record<string, React.ReactNode> = {
     <div>
       ⬇️ Sure! You can download it here ⬇️ <br />
       <a
-        href="/EcemOzturkCV.pdf"
+        href="/ecem-ozturk-cv.pdf"
         download
         className="underline font-extrabold hover:text-black/50"
       >
@@ -81,7 +81,7 @@ export const predefinedAnswers: Record<string, React.ReactNode> = {
         <li>
           <Link
             className="underline cursor-pointer"
-            href="www.linkedin.com/in/ecem-öztürk-73730"
+            href="https://linkedin.com/in/ecem-öztürk-73730"
           >
             🖥 LinkedIn
           </Link>
