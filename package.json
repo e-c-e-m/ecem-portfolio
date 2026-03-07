@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
     "color-thief-react": "^2.1.0",
     "framer-motion": "^12.6.3",
     "lenis": "^1.3.1",

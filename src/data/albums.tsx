@@ -32,7 +32,31 @@ export const albums = [
     src: "/albums/herloss.png",
   },
   {
-    title: "Damn",
+    title: "DAMN.",
     src: "/albums/damn.png",
+  },
+  {
+    title: "ATLiens",
+    src: "/albums/atliens.png",
+  },
+  {
+    title: "Alpha Place",
+    src: "/albums/alphaplace.png",
+  },
+  {
+    title: "ICON",
+    src: "/albums/icon.png",
+  },
+  {
+    title: "Let God Sort Em Out",
+    src: "/albums/lgseo.png",
+  },
+  {
+    title: "Fall Off",
+    src: "/albums/falloff.png",
+  },
+  {
+    title: "Ca$ino",
+    src: "/albums/casino.png",
   },
 ];
