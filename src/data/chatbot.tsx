@@ -216,7 +216,7 @@ export const predefinedAnswers: AnswerMap = {
   ),
 
   [normalizeQuestion("how can i see your projects?")]:
-    "This is the part where I'd normally show off work from my past roles — but most of what I've built lives in private codebases, so I can't share much of it publicly here 🥷 That said, I'm always happy to chat through what I've built (scope, tradeoffs, impact) in an interview. Also feel free to check out my GitHub.",
+    "This is the part where I'd normally show off work from my past roles - but most of what I've built lives in private codebases, so I can't share much of it publicly here 🥷 That said, I'm always happy to chat through what I've built (scope, tradeoffs, impact) in an interview. Also feel free to check out my GitHub.",
 
   [normalizeQuestion("tell me about your product experience")]: (
     <div className="space-y-2">
@@ -225,14 +225,14 @@ export const predefinedAnswers: AnswerMap = {
       </p>
       <ul className="list-disc pl-4 space-y-2">
         <li>
-          At Flatplan, I didn&apos;t just build the OpenAI integration — I
+          At Flatplan, I didn&apos;t just build the OpenAI integration - I
           identified the problem (QA team wasting hours deciphering cryptic
           errors), scoped the solution, and shipped it. 40% reduction in
           investigation time.
         </li>
         <li>
           At the Ministry of Justice, I sat in on user research sessions and
-          iterated on UI based on real user testing feedback — not just ticket
+          iterated on UI based on real user testing feedback - not just ticket
           specs.
         </li>
         <li>
@@ -262,16 +262,16 @@ export const predefinedAnswers: AnswerMap = {
           research teams throughout my career.
         </li>
         <li>
-          I genuinely care about users — I&apos;ve done user research, iterated
+          I genuinely care about users - I&apos;ve done user research, iterated
           on feedback, and shipped things people actually enjoy using.
         </li>
         <li>
-          I love understanding systems and explaining complexity simply — a core
+          I love understanding systems and explaining complexity simply - a core
           TSM skill.
         </li>
       </ul>
       <p className="mt-2">
-        If that sounds like what you&apos;re hiring for — let&apos;s talk 👀
+        If that sounds like what you&apos;re hiring for - let&apos;s talk 👀
       </p>
     </div>
   ),
@@ -281,15 +281,15 @@ export const predefinedAnswers: AnswerMap = {
       <p>Usually in this order:</p>
       <ol className="list-decimal pl-4 space-y-1">
         <li>
-          Understand the user first — who are they, what problem are we actually
+          Understand the user first - who are they, what problem are we actually
           solving?
         </li>
         <li>
-          Map the system — data flow, pain points, where things break or slow
+          Map the system - data flow, pain points, where things break or slow
           down.
         </li>
         <li>
-          Find the highest leverage change — not the most technically
+          Find the highest leverage change - not the most technically
           interesting one.
         </li>
         <li>Ship something small, learn, iterate.</li>
@@ -307,14 +307,14 @@ export const predefinedAnswers: AnswerMap = {
       <ul className="list-disc pl-4 space-y-1">
         <li>
           I care deeply about the experience of whoever&apos;s using what I
-          build — whether that&apos;s an end user or a dev consuming my API.
+          build - whether that&apos;s an end user or a dev consuming my API.
         </li>
         <li>
-          I can operate across the full stack and across functions — from
+          I can operate across the full stack and across functions - from
           writing Python services to sitting in on user research sessions.
         </li>
         <li>
-          I don&apos;t just ship code — I lead, mentor, and improve the teams
+          I don&apos;t just ship code - I lead, mentor, and improve the teams
           I&apos;m in.
         </li>
         <li>I have a cat named Kedosh and he is objectively elite.</li>
@@ -329,22 +329,22 @@ export const terminalCommands: Record<string, React.ReactNode> = {
     <div className="space-y-1 font-mono text-xs">
       <p className="font-bold mb-2">Available commands:</p>
       <p>
-        <span className="text-[#ffa3ce]">/help</span> — show this menu
+        <span className="text-[#ffa3ce]">/help</span> - show this menu
       </p>
       <p>
-        <span className="text-[#ffa3ce]">/cat</span> — meet Kedosh
+        <span className="text-[#ffa3ce]">/cat</span> - meet Kedosh
       </p>
       <p>
-        <span className="text-[#ffa3ce]">/music</span> — current rotation
+        <span className="text-[#ffa3ce]">/music</span> - current rotation
       </p>
       <p>
-        <span className="text-[#ffa3ce]">/hire</span> — get in touch
+        <span className="text-[#ffa3ce]">/hire</span> - get in touch
       </p>
       <p>
-        <span className="text-[#ffa3ce]">/stack</span> — quick tech snapshot
+        <span className="text-[#ffa3ce]">/stack</span> - quick tech snapshot
       </p>
       <p>
-        <span className="text-[#ffa3ce]">/secret</span> — 👀
+        <span className="text-[#ffa3ce]">/secret</span> - 👀
       </p>
     </div>
   ),
@@ -465,7 +465,7 @@ export const terminalCommands: Record<string, React.ReactNode> = {
     <div className="space-y-2">
       <p>You found the secret command. I respect it.</p>
       <p className="text-xs opacity-70">
-        This entire chatbot is powered by Claude (Anthropic&apos;s AI). So yes — I
+        This entire chatbot is powered by Claude (Anthropic&apos;s AI). So yes - I
         literally built an AI-powered portfolio to showcase that I know how to
         build AI-powered products. Meta? Maybe. Effective? Definitely.
       </p>
@@ -481,7 +481,7 @@ export const fallbackReplies: React.ReactNode[] = [
   "Bro, I'm not ChatGPT.",
   "Hmmm... interesting...",
   "You know what? I could've actually tried to implement some sort of AI here but I didn't... *cries in corner*",
-  "Hang on — let me ask you a question instead: Am I cool? Yes or yes?",
+  "Hang on - let me ask you a question instead: Am I cool? Yes or yes?",
   "Uhmmm...",
   <div className="space-y-2" key="img-reply">
     <p>

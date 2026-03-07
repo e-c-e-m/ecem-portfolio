@@ -37,7 +37,7 @@ export default function FakeChat() {
     {
       id: uuidv4(),
       sender: "bot",
-      text: "Hey 👋 I'm Ecem's portfolio bot — powered by Claude (yes, actual AI). Ask me anything about her experience, skills, or what she's looking for next. Or type /help for some easter eggs 🐣",
+      text: "Hey 👋 I'm Ecem's portfolio bot - powered by Claude (yes, actual AI). Ask me anything about her experience, skills, or what she's looking for next. Or type /help for some easter eggs 🐣",
     },
   ]);
   const [input, setInput] = useState("");

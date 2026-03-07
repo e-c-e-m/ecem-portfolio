@@ -63,7 +63,7 @@ function ensureContrast(hex: string, maxLightness = 55): string {
   return l > maxLightness ? hslToHex(h, Math.max(s, 30), maxLightness) : hex;
 }
 
-// Return black or white — whichever has better contrast against the given background
+// Return black or white - whichever has better contrast against the given background
 function getReadableOn(bgHex: string): string {
   const r = parseInt(bgHex.slice(1, 3), 16) / 255;
   const g = parseInt(bgHex.slice(3, 5), 16) / 255;

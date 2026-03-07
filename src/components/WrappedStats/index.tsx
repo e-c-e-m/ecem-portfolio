@@ -64,7 +64,6 @@ function AnimatedNumber({ value }: { value: string }) {
       return;
     }
 
-    let start = 0;
     const duration = 1200;
     const startTime = performance.now();
 
@@ -98,7 +97,7 @@ export default function WrappedStats() {
           className="mb-16 text-center"
         >
           <p className="text-xs tracking-[0.3em] uppercase text-gray-500 mb-3">
-            your year in review — except it&apos;s 6 years
+            your year in review - except it&apos;s 6 years
           </p>
           <h2 className="text-4xl md:text-6xl font-bold leading-tight">
             Ecem&apos;s{" "}

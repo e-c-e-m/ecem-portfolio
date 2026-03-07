@@ -9,11 +9,11 @@ const cases = [
     role: "Senior Software Engineer",
     tag: "AI · Product Impact",
     tagColor: "#b5f5b5",
-    title: "Turning cryptic errors into plain English — with AI",
+    title: "Turning cryptic errors into plain English - with AI",
     problem:
       "The QA team was losing hours every week trying to decipher raw error logs from a publishing pipeline. The errors were technically accurate but completely unreadable to non-engineers.",
     approach:
-      "I identified this as a leverage point — not just a dev problem but a cross-team bottleneck. I scoped and built an OpenAI integration inside Appsmith that translated error logs into human-readable explanations in real time. No ticket was filed asking for this; I spotted it, proposed it, and shipped it.",
+      "I identified this as a leverage point - not just a dev problem but a cross-team bottleneck. I scoped and built an OpenAI integration inside Appsmith that translated error logs into human-readable explanations in real time. No ticket was filed asking for this; I spotted it, proposed it, and shipped it.",
     outcome:
       "40% reduction in QA investigation time. Engineers spent less time on support. The QA team felt empowered to diagnose issues independently.",
     skills: ["OpenAI API", "Appsmith", "Product thinking", "Cross-team impact"],
@@ -25,11 +25,11 @@ const cases = [
     tagColor: "#ffd6a3",
     title: "High-stakes data viz for a global energy trading platform",
     problem:
-      "LNG traders needed to visualise and act on complex, high-volume data across pricing and access management workflows. Performance and reliability were non-negotiable — bad data = bad trades.",
+      "LNG traders needed to visualise and act on complex, high-volume data across pricing and access management workflows. Performance and reliability were non-negotiable - bad data = bad trades.",
     approach:
       "Built highly optimised React/TypeScript frontends using AG Grid for large dataset rendering. Delivered modular frontend components for pricing workflows while also contributing to Python (FastAPI) backend services. Championed consistent testing and linting standards across the team.",
     outcome:
-      "Production-grade trading UI used by a global energy company. Mentored junior devs, improved codebase standards, and contributed across the full stack — not just the frontend.",
+      "Production-grade trading UI used by a global energy company. Mentored junior devs, improved codebase standards, and contributed across the full stack - not just the frontend.",
     skills: ["React", "TypeScript", "AG Grid", "FastAPI", "Mentoring"],
   },
   {
@@ -37,11 +37,11 @@ const cases = [
     role: "Frontend React Developer (Contract)",
     tag: "Accessibility · Quality",
     tagColor: "#e4a3ff",
-    title: "Building for 30 million gamers — and making sure it actually works",
+    title: "Building for 30 million gamers - and making sure it actually works",
     problem:
       "Nexus Mods serves one of the largest modding communities in the world. The existing UI needed a modern overhaul without breaking the experience for millions of users, across web and mobile.",
     approach:
-      "Led the design and build of accessible, modern UI components — with accessibility (a11y) as a first-class concern, not an afterthought. Pushed for GraphQL adoption to clean up data fetching. Wrote tests obsessively, hitting 90%+ Jest/RTL coverage. Also prototyped React Native workflows to de-risk future mobile expansion.",
+      "Led the design and build of accessible, modern UI components - with accessibility (a11y) as a first-class concern, not an afterthought. Pushed for GraphQL adoption to clean up data fetching. Wrote tests obsessively, hitting 90%+ Jest/RTL coverage. Also prototyped React Native workflows to de-risk future mobile expansion.",
     outcome:
       "Significantly improved test coverage, cleaner data layer, and components accessible to users with disabilities. The mobile prototyping work informed the product roadmap for future native expansion.",
     skills: ["React", "Accessibility", "GraphQL", "Jest/RTL", "React Native"],
@@ -166,7 +166,7 @@ export default function CaseStudies() {
             Problems I&apos;ve <span className="text-[#ffa3ce]">solved</span>
           </h2>
           <p className="text-gray-500 mt-4 max-w-xl">
-            Most of my work lives in private repos — but impact is public. Here&apos;s
+            Most of my work lives in private repos - but impact is public. Here&apos;s
             how I think about problems and what I delivered.
           </p>
         </motion.div>
